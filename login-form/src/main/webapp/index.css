@@ -1,0 +1,18 @@
+html {
+	margin: 0px;
+	padding: 0px;
+	font-size: 20px;
+}
+
+.loginbox {
+	border-radius: 4px;
+	box-shadow: 0px 2px 10px;
+	margin: 80px auto;
+	width: 400px;
+}
+
+#link {
+	text-align: center;
+	width: 400px;
+	margin: 25px auto;
+}

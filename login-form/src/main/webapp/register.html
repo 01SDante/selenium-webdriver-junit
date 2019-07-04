@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registro</title>
+	<meta name="viewport" content="width=device-width, initial-escale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="register.css">
+	<!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+
+	<div class="jumbotron registerbox">
+	<form action="success.html">
+	    
+		<div class="form-group">
+		    <label for="email">Email</label>
+		    <input type="text" class="form-control" id="email" name="email" placeholder="Email">
+		</div>
+		
+		<div class="form-group">
+	    	<label for="psw">Contraseña</label>
+	    	<input type="password" class="form-control" id="psw" name="psw" placeholder="Contraseña">
+	  	</div>
+		
+		<div class="form-group">
+	    	<label for="psw-repeat">Repetir contraseña</label>
+	    	<input type="password" class="form-control" id="psw-repeat" name="psw-repeat" placeholder="Repetir contraseña">
+	  	</div>
+		
+		<hr>
+	    <div>
+			<button type="submit" class="btn btn-success btn-lg btn-block linea" name="registerBtn">Registrar</button>
+			<button type="button" class="btn btn-danger btn-lg btn-block linea" onclick="window.location.href='index.html'">Cancelar</button>
+	    </div>
+	    
+	</form>
+	</div>
+
+</body>
+</html>
